@@ -35,7 +35,7 @@ int main() {
                 }
 		for(int i=0; i < 4;i++){	
 			p1[i] = rand() & 0xffffffff;
-			p2[i] = p1[i] ^ Delta[i];
+			p2[i] = p1[i] ^ Delta[i];     
 			}
 
 
@@ -55,7 +55,8 @@ int main() {
 			}
 
 
-
+        // Guessing 36 positions of L_{10}^{-1}(k_11)
+		
 		for(uint64_t gkey = 0 ; gkey < ((uint64_t)(1)<<36) ; gkey++){
 
 			for(int i=0; i < 4;i++) {
@@ -133,6 +134,9 @@ int main() {
  					}
 				if(cntt == 1){
 					count++;
+
+					// Guessing 12 positions of L_9^{-1}(k_10)
+					
 					for(uint64_t gkey10 = 0 ; gkey10 < ((uint64_t)(1)<<12) ; gkey10++){
 					  for(int i=0;i<4;i++){
                                           t1[i] = c1[i];
