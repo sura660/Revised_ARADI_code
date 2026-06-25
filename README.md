@@ -12,17 +12,17 @@ This repository contains the source codes for the paper, '**{Improved Differenti
 
 ## File Structure
 
-1.  `functions.h': Script for writing necessary functions for encryption and decryption of Aradi.
+1.  `functions.h': Script for writing necessary functions for encryption and decryption of ARADI.
 
-2.  `toyaradi_function.h': Script for writing necessary functions for encryption and decryption of toy version of Aradi.
+2.  `toyaradi_function.h': Script for writing necessary functions for encryption and decryption of toy version of ARADI.
 
 3.  `2filterrightpair.c': Script to find the average number of survival keys when the pair is a right pair.
 
 4.  `nWRONGPAIR.c': Script to find the average number of survival keys when the pair is a wrong pair.
 
-5.  `toyrightpair.c': Script to find the average number of survival keys when the pair is a right pair in the toy version of Aradi.
+5.  `toyrightpair.c': Script to find the average number of survival keys when the pair is a right pair in the toy version of ARADI.
 
-6.  `toywrongpair.c': Script to find the average number of survival keys for any wrong pair in the toy version of Aradi
+6.  `toywrongpair.c': Script to find the average number of survival keys for any wrong pair in the toy version of ARADI.
 
 
 
